@@ -1,11 +1,14 @@
-import { View, Text } from 'react-native'
+import { Text, View } from 'react-native';
+import './globals.css';
 
 const Home = () => {
-    return(
-        <View>
-            <Text>Home</Text>
-        </View>
-    )
-}
+  return (
+    <View>
+      <Text>
+        Home
+      </Text>
+    </View>
+  );
+};
 
 export default Home;
